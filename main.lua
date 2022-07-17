@@ -51,6 +51,3 @@ local function CreateGui(Type, Properties, Parent)
 	end
 	return NewGui
 end 
-
-local Gui1 = CreateGui("screen", {Name = "test"}, game:GetService("CoreGui"))
-local orb = CreateGui("ball", {Size = UDim2.new(0.2, 0, 0.2, 0)}, Gui1)
